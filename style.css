@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+
+.contact-section{
+  background: url(bg.jfif) no-repeat center;
+  background-size: cover;
+  padding: 90px 0;
+}
+.contact-section h1{
+  text-align: center;
+  color: #ddd;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.9;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover:not(.active) {
+  background-color: #111;
+}
+
+header .active {
+  background-color: #0B077B;
+}
+
+header li a:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+.home_page{
+  background: url(home.jpg) no-repeat center;
+  height: 75vh;
+  background-color: black;
+  opacity:0.7;
+  background-size: cover;
+  padding: 90px 0;
+}
+.title_home{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.title_home h1{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  padding: 0px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+  font-size: 70px;
+  background-color: green;
+  opacity: 0.9;
+}
+.menu{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.food-Menu{
+  background: url(menu.jpg) no-repeat center;
+  background-size: cover;
+  padding-bottom: 287px ;
+  padding-top: 1px;
+}
+.food-Menu h1{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  padding: 0px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+  font-size: 70px;
+  background-color: grey;
+  opacity: 0.9;
+}
+.menu{
+  background-color: black;
+  opacity: 0.8;
+  width: 1180px;
+
+}
+.menu thead tr{
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+.menu th{
+  padding: 12px 15px;
+}
+.menu td{
+  padding: 12px 15px;
+  color:white;
+}
